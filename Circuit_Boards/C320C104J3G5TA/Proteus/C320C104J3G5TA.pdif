@@ -1,0 +1,111 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C320C104J3G5TA"
+   (description "Multilayer Ceramic Capacitors MLCC - Leaded .100UF 25.0V")
+   (family "CAP")
+   (package "C320C104J3G5TA")
+   (attribute "Datasheet Link" "https://www.mouser.ch/ProductDetail/80-C320C104J3G5TA")
+   (attribute "Geometry.Height" "7.36mm")
+   (attribute "Manufacturer_Name" "Kemet")
+   (attribute "Manufacturer_Part_Number" "C320C104J3G5TA")
+   (attribute "Mouser Part Number" "80-C320C104J3G5TA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104J3G5TA?qs=h3%2Fj8evtlm3MCUfqh6eOGg%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "C320C104J3G5TA")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "C320C104J3G5TA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C320C104J3G5TA"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.27 1.59)
+      (pt 3.81 1.59)
+      (pt 3.81 -1.59)
+      (pt -1.27 -1.59)
+      (pt -1.27 1.59))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 1.59)
+      (pt 3.81 1.59)
+      (pt 3.81 -1.59)
+      (pt -1.27 -1.59)
+      (pt -1.27 1.59))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.27 2.59)
+      (pt 4.81 2.59)
+      (pt 4.81 -2.59)
+      (pt -2.27 -2.59)
+      (pt -2.27 2.59))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (padstack 0
+    (hole 0.81)
+    (plated true)
+    (pad (layer TCOP) (round 1.316))
+    (pad (layer INNER) (round 1.316))
+    (pad (layer BCOP) (round 1.316))
+   )
+   (model "C320C104J3G5TA.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

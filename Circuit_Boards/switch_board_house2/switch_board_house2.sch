@@ -1,0 +1,3283 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "DC House switchboard"
+Date "2021-12-08"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TLC59211IN:TLC59211IN IC4
+U 1 1 61B060F8
+P 8050 2350
+F 0 "IC4" H 8650 2615 50  0000 C CNN
+F 1 "TLC59211IN" H 8650 2524 50  0000 C CNN
+F 2 "TLC59211IN:DIP794W53P254L2540H508Q20N" H 9100 2450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tlc59211" H 9100 2350 50  0001 L CNN
+F 4 "8-Bit DMOS Sink Driver" H 9100 2250 50  0001 L CNN "Description"
+F 5 "5.08" H 9100 2150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9100 2050 50  0001 L CNN "Manufacturer_Name"
+F 7 "TLC59211IN" H 9100 1950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TLC59211IN" H 9100 1850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLC59211IN" H 9100 1750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TLC59211IN" H 9100 1650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tlc59211in/texas-instruments" H 9100 1550 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLC59211IN:TLC59211IN IC5
+U 1 1 61B07353
+P 8050 3750
+F 0 "IC5" H 8650 4015 50  0000 C CNN
+F 1 "TLC59211IN" H 8650 3924 50  0000 C CNN
+F 2 "TLC59211IN:DIP794W53P254L2540H508Q20N" H 9100 3850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tlc59211" H 9100 3750 50  0001 L CNN
+F 4 "8-Bit DMOS Sink Driver" H 9100 3650 50  0001 L CNN "Description"
+F 5 "5.08" H 9100 3550 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9100 3450 50  0001 L CNN "Manufacturer_Name"
+F 7 "TLC59211IN" H 9100 3350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TLC59211IN" H 9100 3250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLC59211IN" H 9100 3150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TLC59211IN" H 9100 3050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tlc59211in/texas-instruments" H 9100 2950 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLC59211IN:TLC59211IN IC6
+U 1 1 61B08120
+P 8050 5150
+F 0 "IC6" H 8650 5415 50  0000 C CNN
+F 1 "TLC59211IN" H 8650 5324 50  0000 C CNN
+F 2 "TLC59211IN:DIP794W53P254L2540H508Q20N" H 9100 5250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/tlc59211" H 9100 5150 50  0001 L CNN
+F 4 "8-Bit DMOS Sink Driver" H 9100 5050 50  0001 L CNN "Description"
+F 5 "5.08" H 9100 4950 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9100 4850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TLC59211IN" H 9100 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-TLC59211IN" H 9100 4650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLC59211IN" H 9100 4550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TLC59211IN" H 9100 4450 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tlc59211in/texas-instruments" H 9100 4350 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 61B36FE2
+P 10350 2500
+F 0 "R23" V 10400 2250 50  0000 L CNN
+F 1 "150" V 10350 2400 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 2500 50  0001 C CNN
+F 3 "~" H 10350 2500 50  0001 C CNN
+	1    10350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 61B37366
+P 10350 2700
+F 0 "R25" V 10400 2450 50  0000 L CNN
+F 1 "150" V 10350 2600 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 2700 50  0001 C CNN
+F 3 "~" H 10350 2700 50  0001 C CNN
+	1    10350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 61B37508
+P 10350 2900
+F 0 "R27" V 10400 2650 50  0000 L CNN
+F 1 "150" V 10350 2800 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 2900 50  0001 C CNN
+F 3 "~" H 10350 2900 50  0001 C CNN
+	1    10350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 61B377E7
+P 10350 3100
+F 0 "R29" V 10400 2850 50  0000 L CNN
+F 1 "150" V 10350 3000 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 3100 50  0001 C CNN
+F 3 "~" H 10350 3100 50  0001 C CNN
+	1    10350 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 61B37ABC
+P 10350 3300
+F 0 "R31" V 10400 3050 50  0000 L CNN
+F 1 "150" V 10350 3200 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 3300 50  0001 C CNN
+F 3 "~" H 10350 3300 50  0001 C CNN
+	1    10350 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 61B37D90
+P 10350 3500
+F 0 "R33" V 10400 3250 50  0000 L CNN
+F 1 "150" V 10350 3400 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 3500 50  0001 C CNN
+F 3 "~" H 10350 3500 50  0001 C CNN
+	1    10350 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 61B38111
+P 10350 3700
+F 0 "R35" V 10400 3450 50  0000 L CNN
+F 1 "150" V 10350 3600 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 3700 50  0001 C CNN
+F 3 "~" H 10350 3700 50  0001 C CNN
+	1    10350 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 61B38378
+P 10350 3900
+F 0 "R37" V 10400 3650 50  0000 L CNN
+F 1 "150" V 10350 3800 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 3900 50  0001 C CNN
+F 3 "~" H 10350 3900 50  0001 C CNN
+	1    10350 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 61B3882C
+P 10350 4100
+F 0 "R39" V 10400 3850 50  0000 L CNN
+F 1 "150" V 10350 4000 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 4100 50  0001 C CNN
+F 3 "~" H 10350 4100 50  0001 C CNN
+	1    10350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 61B38C1F
+P 10350 4300
+F 0 "R41" V 10400 4050 50  0000 L CNN
+F 1 "150" V 10350 4200 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 4300 50  0001 C CNN
+F 3 "~" H 10350 4300 50  0001 C CNN
+	1    10350 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R43
+U 1 1 61B39051
+P 10350 4500
+F 0 "R43" V 10400 4250 50  0000 L CNN
+F 1 "150" V 10350 4400 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 4500 50  0001 C CNN
+F 3 "~" H 10350 4500 50  0001 C CNN
+	1    10350 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61B3A406
+P 10150 2600
+F 0 "R24" V 10200 2700 50  0000 L CNN
+F 1 "150" V 10150 2500 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 2600 50  0001 C CNN
+F 3 "~" H 10150 2600 50  0001 C CNN
+	1    10150 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 61B3A5DC
+P 10150 2800
+F 0 "R26" V 10200 2900 50  0000 L CNN
+F 1 "150" V 10150 2700 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 2800 50  0001 C CNN
+F 3 "~" H 10150 2800 50  0001 C CNN
+	1    10150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 61B3A838
+P 10150 3000
+F 0 "R28" V 10200 3100 50  0000 L CNN
+F 1 "150" V 10150 2900 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 3000 50  0001 C CNN
+F 3 "~" H 10150 3000 50  0001 C CNN
+	1    10150 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 61B3A9DF
+P 10150 3200
+F 0 "R30" V 10200 3300 50  0000 L CNN
+F 1 "150" V 10150 3100 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 3200 50  0001 C CNN
+F 3 "~" H 10150 3200 50  0001 C CNN
+	1    10150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 61B3ABCF
+P 10150 3400
+F 0 "R32" V 10200 3500 50  0000 L CNN
+F 1 "150" V 10150 3300 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 3400 50  0001 C CNN
+F 3 "~" H 10150 3400 50  0001 C CNN
+	1    10150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 61B3AE1B
+P 10150 3600
+F 0 "R34" V 10200 3700 50  0000 L CNN
+F 1 "150" V 10150 3500 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 3600 50  0001 C CNN
+F 3 "~" H 10150 3600 50  0001 C CNN
+	1    10150 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R36
+U 1 1 61B3B072
+P 10150 3800
+F 0 "R36" V 10200 3900 50  0000 L CNN
+F 1 "150" V 10150 3700 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 3800 50  0001 C CNN
+F 3 "~" H 10150 3800 50  0001 C CNN
+	1    10150 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 61B3B369
+P 10150 4000
+F 0 "R38" V 10200 4100 50  0000 L CNN
+F 1 "150" V 10150 3900 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 4000 50  0001 C CNN
+F 3 "~" H 10150 4000 50  0001 C CNN
+	1    10150 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 61B3B68B
+P 10150 4200
+F 0 "R40" V 10200 4300 50  0000 L CNN
+F 1 "150" V 10150 4100 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 4200 50  0001 C CNN
+F 3 "~" H 10150 4200 50  0001 C CNN
+	1    10150 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R42
+U 1 1 61B3B87B
+P 10150 4400
+F 0 "R42" V 10200 4500 50  0000 L CNN
+F 1 "150" V 10150 4300 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 4400 50  0001 C CNN
+F 3 "~" H 10150 4400 50  0001 C CNN
+	1    10150 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x25 LED_Out1
+U 1 1 61B3BF6B
+P 10800 3600
+F 0 "LED_Out1" H 10750 2300 50  0000 L CNN
+F 1 "Conn_01x25" H 10750 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" H 10800 3600 50  0001 C CNN
+F 3 "~" H 10800 3600 50  0001 C CNN
+	1    10800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2500 10600 2500
+Wire Wire Line
+	10300 2600 10600 2600
+Wire Wire Line
+	10500 2700 10600 2700
+Wire Wire Line
+	10300 2800 10600 2800
+Wire Wire Line
+	10500 2900 10600 2900
+Wire Wire Line
+	10300 3000 10600 3000
+Wire Wire Line
+	10500 3100 10600 3100
+Wire Wire Line
+	10300 3200 10600 3200
+Wire Wire Line
+	10500 3300 10600 3300
+Wire Wire Line
+	10300 3400 10600 3400
+Wire Wire Line
+	10500 3500 10600 3500
+Wire Wire Line
+	10300 3600 10600 3600
+Wire Wire Line
+	10500 3700 10600 3700
+Wire Wire Line
+	10300 3800 10600 3800
+Wire Wire Line
+	10500 3900 10600 3900
+Wire Wire Line
+	10300 4000 10600 4000
+Wire Wire Line
+	10500 4100 10600 4100
+Wire Wire Line
+	10300 4200 10600 4200
+Wire Wire Line
+	10500 4300 10600 4300
+Wire Wire Line
+	10300 4400 10600 4400
+Wire Wire Line
+	10500 4500 10600 4500
+Wire Wire Line
+	10300 4600 10600 4600
+Wire Wire Line
+	10500 4700 10600 4700
+$Comp
+L power:+5V #PWR0101
+U 1 1 61B48238
+P 10600 2400
+F 0 "#PWR0101" H 10600 2250 50  0001 C CNN
+F 1 "+5V" H 10615 2573 50  0000 C CNN
+F 2 "" H 10600 2400 50  0001 C CNN
+F 3 "" H 10600 2400 50  0001 C CNN
+	1    10600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61BDDFE9
+P 9250 3250
+F 0 "#PWR0103" H 9250 3000 50  0001 C CNN
+F 1 "GND" H 9255 3077 50  0000 C CNN
+F 2 "" H 9250 3250 50  0001 C CNN
+F 3 "" H 9250 3250 50  0001 C CNN
+	1    9250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61BDE8A3
+P 9250 4650
+F 0 "#PWR0104" H 9250 4400 50  0001 C CNN
+F 1 "GND" H 9255 4477 50  0000 C CNN
+F 2 "" H 9250 4650 50  0001 C CNN
+F 3 "" H 9250 4650 50  0001 C CNN
+	1    9250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 61BE0464
+P 9250 6050
+F 0 "#PWR0105" H 9250 5800 50  0001 C CNN
+F 1 "GND" H 9255 5877 50  0000 C CNN
+F 2 "" H 9250 6050 50  0001 C CNN
+F 3 "" H 9250 6050 50  0001 C CNN
+	1    9250 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 900  0    50   Input ~ 0
+UART_RX
+Text GLabel 1400 1100 0    50   Input ~ 0
+SwitchSignal
+$Comp
+L power:+5V #PWR0108
+U 1 1 61BF639D
+P 9250 3750
+F 0 "#PWR0108" H 9250 3600 50  0001 C CNN
+F 1 "+5V" H 9265 3923 50  0000 C CNN
+F 2 "" H 9250 3750 50  0001 C CNN
+F 3 "" H 9250 3750 50  0001 C CNN
+	1    9250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 61BF70A6
+P 9250 2350
+F 0 "#PWR0109" H 9250 2200 50  0001 C CNN
+F 1 "+5V" H 9265 2523 50  0000 C CNN
+F 2 "" H 9250 2350 50  0001 C CNN
+F 3 "" H 9250 2350 50  0001 C CNN
+	1    9250 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8050 3750
+NoConn ~ 8050 4650
+NoConn ~ 8050 3250
+NoConn ~ 8050 2350
+NoConn ~ 8050 6050
+NoConn ~ 8050 5150
+NoConn ~ 2350 3650
+NoConn ~ 2350 3550
+NoConn ~ 2350 3450
+NoConn ~ 2350 3350
+NoConn ~ 2350 3250
+NoConn ~ 2350 3150
+NoConn ~ 2350 3050
+NoConn ~ 2350 2950
+NoConn ~ 2350 2850
+NoConn ~ 2350 2750
+NoConn ~ 2350 2450
+NoConn ~ 2350 2350
+NoConn ~ 2350 2250
+NoConn ~ 950  1950
+NoConn ~ 2350 2050
+NoConn ~ 2350 1850
+NoConn ~ 1750 3850
+NoConn ~ 1650 3850
+NoConn ~ 1550 3850
+NoConn ~ 950  3650
+NoConn ~ 950  3550
+NoConn ~ 950  3450
+NoConn ~ 950  3350
+NoConn ~ 950  3250
+NoConn ~ 950  3150
+NoConn ~ 950  3050
+NoConn ~ 950  2950
+NoConn ~ 950  2650
+NoConn ~ 950  2550
+NoConn ~ 950  2450
+Text GLabel 950  2050 0    50   Input ~ 0
+Strobe
+Wire Wire Line
+	2350 1750 2400 1750
+$Comp
+L power:+5V #PWR0110
+U 1 1 61B7C412
+P 2400 1750
+F 0 "#PWR0110" H 2400 1600 50  0001 C CNN
+F 1 "+5V" H 2415 1923 50  0000 C CNN
+F 2 "" H 2400 1750 50  0001 C CNN
+F 3 "" H 2400 1750 50  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 61B7BA52
+P 2350 1950
+F 0 "#PWR0111" H 2350 1700 50  0001 C CNN
+F 1 "GND" V 2355 1822 50  0000 R CNN
+F 2 "" H 2350 1950 50  0001 C CNN
+F 3 "" H 2350 1950 50  0001 C CNN
+	1    2350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L house-rescue:Pico-PICO_RP2040 U1
+U 1 1 61B005D0
+P 1650 2700
+F 0 "U1" H 1650 3915 50  0000 C CNN
+F 1 "Pico-PICO_RP2040" H 1650 3824 50  0000 C CNN
+F 2 "PiPico:PinHeader_2x20_P2.54mm_PICO" V 1650 2700 50  0001 C CNN
+F 3 "" H 1650 2700 50  0001 C CNN
+	1    1650 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2750 5050
+NoConn ~ 2750 6250
+NoConn ~ 2750 7450
+NoConn ~ 2750 7350
+Text GLabel 1050 4450 0    50   Input ~ 0
+Data
+$Comp
+L power:GND #PWR0112
+U 1 1 61BA0EEE
+P 1050 7450
+F 0 "#PWR0112" H 1050 7200 50  0001 C CNN
+F 1 "GND" H 900 7400 50  0000 C CNN
+F 2 "" H 1050 7450 50  0001 C CNN
+F 3 "" H 1050 7450 50  0001 C CNN
+	1    1050 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 61BA0A0E
+P 1050 6250
+F 0 "#PWR0113" H 1050 6000 50  0001 C CNN
+F 1 "GND" H 900 6200 50  0000 C CNN
+F 2 "" H 1050 6250 50  0001 C CNN
+F 3 "" H 1050 6250 50  0001 C CNN
+	1    1050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 61BA057E
+P 1050 5050
+F 0 "#PWR0114" H 1050 4800 50  0001 C CNN
+F 1 "GND" H 900 5000 50  0000 C CNN
+F 2 "" H 1050 5050 50  0001 C CNN
+F 3 "" H 1050 5050 50  0001 C CNN
+	1    1050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  6850 1050 6850
+Wire Wire Line
+	2750 6150 2850 6150
+Wire Wire Line
+	700  5650 1050 5650
+Text GLabel 1050 6950 0    50   Input ~ 0
+Clock
+Text GLabel 1050 6750 0    50   Input ~ 0
+Strobe
+Text GLabel 1050 5750 0    50   Input ~ 0
+Clock
+Text GLabel 1050 5550 0    50   Input ~ 0
+Strobe
+Text GLabel 1050 4550 0    50   Input ~ 0
+Clock
+Text GLabel 1050 4350 0    50   Input ~ 0
+Strobe
+$Comp
+L CD4094BE:CD4094BE IC3
+U 1 1 61B04564
+P 1050 6750
+F 0 "IC3" H 1900 7015 50  0000 C CNN
+F 1 "CD4094BE" H 1900 6924 50  0000 C CNN
+F 2 "8-Bit_Register:DIP794W53P254L1930H508Q16N" H 2600 6850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4094b.pdf" H 2600 6750 50  0001 L CNN
+F 4 "CD4094BE, 8-stage Bus Register, Serial to Serial/Parallel, 3  18 V, 16-Pin PDIP" H 2600 6650 50  0001 L CNN "Description"
+F 5 "5.08" H 2600 6550 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2600 6450 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4094BE" H 2600 6350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4094BE" H 2600 6250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4094BE?qs=0OT4q4QBUTKXwSxJlj9MLw%3D%3D" H 2600 6150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CD4094BE" H 2600 6050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cd4094be/texas-instruments" H 2600 5950 50  0001 L CNN "Arrow Price/Stock"
+	1    1050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CD4094BE:CD4094BE IC2
+U 1 1 61B03CB1
+P 1050 5550
+F 0 "IC2" H 1900 5815 50  0000 C CNN
+F 1 "CD4094BE" H 1900 5724 50  0000 C CNN
+F 2 "8-Bit_Register:DIP794W53P254L1930H508Q16N" H 2600 5650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4094b.pdf" H 2600 5550 50  0001 L CNN
+F 4 "CD4094BE, 8-stage Bus Register, Serial to Serial/Parallel, 3  18 V, 16-Pin PDIP" H 2600 5450 50  0001 L CNN "Description"
+F 5 "5.08" H 2600 5350 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2600 5250 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4094BE" H 2600 5150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4094BE" H 2600 5050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4094BE?qs=0OT4q4QBUTKXwSxJlj9MLw%3D%3D" H 2600 4950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CD4094BE" H 2600 4850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cd4094be/texas-instruments" H 2600 4750 50  0001 L CNN "Arrow Price/Stock"
+	1    1050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CD4094BE:CD4094BE IC1
+U 1 1 61B03169
+P 1050 4350
+F 0 "IC1" H 1900 4615 50  0000 C CNN
+F 1 "CD4094BE" H 1900 4524 50  0000 C CNN
+F 2 "8-Bit_Register:DIP794W53P254L1930H508Q16N" H 2600 4450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4094b.pdf" H 2600 4350 50  0001 L CNN
+F 4 "CD4094BE, 8-stage Bus Register, Serial to Serial/Parallel, 3  18 V, 16-Pin PDIP" H 2600 4250 50  0001 L CNN "Description"
+F 5 "5.08" H 2600 4150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2600 4050 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4094BE" H 2600 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4094BE" H 2600 3850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4094BE?qs=0OT4q4QBUTKXwSxJlj9MLw%3D%3D" H 2600 3750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CD4094BE" H 2600 3650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cd4094be/texas-instruments" H 2600 3550 50  0001 L CNN "Arrow Price/Stock"
+	1    1050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5200 700  5650
+Wire Wire Line
+	2850 6150 2850 6400
+Wire Wire Line
+	2850 6400 700  6400
+Wire Wire Line
+	700  6400 700  6850
+$Comp
+L power:+5V #PWR0115
+U 1 1 61C20105
+P 9250 5150
+F 0 "#PWR0115" H 9250 5000 50  0001 C CNN
+F 1 "+5V" H 9265 5323 50  0000 C CNN
+F 2 "" H 9250 5150 50  0001 C CNN
+F 3 "" H 9250 5150 50  0001 C CNN
+	1    9250 5150
+	1    0    0    -1  
+$EndComp
+Text Label 9250 2450 0    50   ~ 0
+LED1
+Text Label 9250 2550 0    50   ~ 0
+LED2
+Text Label 9250 2650 0    50   ~ 0
+LED3
+Text Label 9250 2750 0    50   ~ 0
+LED4
+Text Label 9250 2850 0    50   ~ 0
+LED5
+Text Label 9250 2950 0    50   ~ 0
+LED6
+Text Label 9250 3050 0    50   ~ 0
+LED7
+Text Label 9250 3150 0    50   ~ 0
+LED8
+Text Label 9250 3850 0    50   ~ 0
+LED9
+Text Label 9250 3950 0    50   ~ 0
+LED10
+Text Label 9250 4050 0    50   ~ 0
+LED11
+Text Label 9250 4150 0    50   ~ 0
+LED12
+Text Label 9250 4250 0    50   ~ 0
+LED13
+Text Label 9250 4350 0    50   ~ 0
+LED14
+Text Label 9250 4450 0    50   ~ 0
+LED15
+Text Label 9250 4550 0    50   ~ 0
+LED16
+Text Label 9250 5250 0    50   ~ 0
+LED17
+Text Label 9250 5350 0    50   ~ 0
+LED18
+Text Label 9250 5450 0    50   ~ 0
+LED19
+Text Label 9250 5550 0    50   ~ 0
+LED20
+Text Label 9250 5650 0    50   ~ 0
+LED21
+Text Label 9250 5750 0    50   ~ 0
+LED22
+Text Label 9250 5850 0    50   ~ 0
+LED23
+Text Label 9900 2500 2    50   ~ 0
+LED1
+Text Label 9900 2600 2    50   ~ 0
+LED2
+Text Label 9900 2700 2    50   ~ 0
+LED3
+Text Label 9900 2800 2    50   ~ 0
+LED4
+Text Label 9900 2900 2    50   ~ 0
+LED5
+Text Label 9900 3000 2    50   ~ 0
+LED6
+Text Label 9900 3100 2    50   ~ 0
+LED7
+Text Label 9900 3200 2    50   ~ 0
+LED8
+Text Label 9900 3300 2    50   ~ 0
+LED9
+Text Label 9900 3400 2    50   ~ 0
+LED10
+Text Label 9900 3500 2    50   ~ 0
+LED11
+Text Label 9900 3600 2    50   ~ 0
+LED12
+Text Label 9900 3700 2    50   ~ 0
+LED13
+Text Label 9900 3800 2    50   ~ 0
+LED14
+Text Label 9900 3900 2    50   ~ 0
+LED15
+Text Label 9900 4000 2    50   ~ 0
+LED16
+Text Label 9900 4100 2    50   ~ 0
+LED17
+Text Label 9900 4200 2    50   ~ 0
+LED18
+Text Label 9900 4300 2    50   ~ 0
+LED19
+Text Label 9900 4400 2    50   ~ 0
+LED20
+Text Label 9900 4500 2    50   ~ 0
+LED21
+Text Label 9900 4600 2    50   ~ 0
+LED22
+Text Label 9900 4700 2    50   ~ 0
+LED23
+Entry Wire Line
+	9550 2350 9450 2450
+Entry Wire Line
+	9450 2550 9550 2450
+Entry Wire Line
+	9450 2650 9550 2550
+Entry Wire Line
+	9450 2750 9550 2650
+Entry Wire Line
+	9450 2850 9550 2750
+Entry Wire Line
+	9450 2950 9550 2850
+Entry Wire Line
+	9450 3050 9550 2950
+Entry Wire Line
+	9450 3150 9550 3050
+Entry Wire Line
+	9450 3850 9550 3750
+Entry Wire Line
+	9450 3950 9550 3850
+Entry Wire Line
+	9450 4050 9550 3950
+Entry Wire Line
+	9450 4150 9550 4050
+Entry Wire Line
+	9450 4250 9550 4150
+Entry Wire Line
+	9450 4350 9550 4250
+Entry Wire Line
+	9450 4450 9550 4350
+Entry Wire Line
+	9450 4550 9550 4450
+Entry Wire Line
+	9450 5250 9550 5150
+Entry Wire Line
+	9450 5350 9550 5250
+Entry Wire Line
+	9450 5450 9550 5350
+Entry Wire Line
+	9450 5550 9550 5450
+Entry Wire Line
+	9450 5650 9550 5550
+Entry Wire Line
+	9450 5750 9550 5650
+Entry Wire Line
+	9450 5850 9550 5750
+Entry Wire Line
+	9650 2500 9550 2400
+Entry Wire Line
+	9650 2600 9550 2500
+Entry Wire Line
+	9650 2700 9550 2600
+Entry Wire Line
+	9650 2800 9550 2700
+Entry Wire Line
+	9650 2900 9550 2800
+Entry Wire Line
+	9550 2900 9650 3000
+Entry Wire Line
+	9550 3000 9650 3100
+Entry Wire Line
+	9550 3100 9650 3200
+Entry Wire Line
+	9550 3200 9650 3300
+Entry Wire Line
+	9550 3300 9650 3400
+Entry Wire Line
+	9550 3400 9650 3500
+Entry Wire Line
+	9550 3500 9650 3600
+Entry Wire Line
+	9550 3600 9650 3700
+Entry Wire Line
+	9550 3700 9650 3800
+Entry Wire Line
+	9550 3800 9650 3900
+Entry Wire Line
+	9550 3900 9650 4000
+Entry Wire Line
+	9550 4000 9650 4100
+Entry Wire Line
+	9550 4100 9650 4200
+Entry Wire Line
+	9550 4200 9650 4300
+Entry Wire Line
+	9550 4300 9650 4400
+Entry Wire Line
+	9550 4400 9650 4500
+Entry Wire Line
+	9550 4500 9650 4600
+Entry Wire Line
+	9550 4600 9650 4700
+Wire Wire Line
+	2850 5200 2850 4950
+Wire Wire Line
+	2750 4950 2850 4950
+Wire Wire Line
+	700  5200 2850 5200
+$Comp
+L Device:R R5
+U 1 1 61F6EB05
+P 3950 2500
+F 0 "R5" V 4000 2300 50  0000 C CNN
+F 1 "270" V 3950 2500 50  0000 C CNN
+F 2 "ROX5SS:ROX5SS" V 3880 2500 50  0001 C CNN
+F 3 "~" H 3950 2500 50  0001 C CNN
+	1    3950 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 61F6F08C
+P 3500 3100
+F 0 "#PWR0119" H 3500 2850 50  0001 C CNN
+F 1 "GND" H 3400 3000 50  0000 C CNN
+F 2 "" H 3500 3100 50  0001 C CNN
+F 3 "" H 3500 3100 50  0001 C CNN
+	1    3500 3100
+	1    0    0    -1  
+$EndComp
+Text Label 3200 4750 2    50   ~ 0
+Water_heater
+Text Label 3200 4850 2    50   ~ 0
+Heater
+Text Label 800  4950 2    50   ~ 0
+Jug
+Text Label 1050 4850 2    50   ~ 0
+Dishwasher
+Entry Wire Line
+	550  4750 650  4650
+Entry Wire Line
+	550  4850 650  4750
+Entry Wire Line
+	550  4950 650  4850
+Entry Wire Line
+	550  5050 650  4950
+Text Label 650  4750 0    50   ~ 0
+Toaster
+Text Label 650  4650 0    50   ~ 0
+TV
+Text Label 650  6050 0    50   ~ 0
+Oven
+Text Label 650  5950 0    50   ~ 0
+Fridge
+Text Label 900  5850 2    50   ~ 0
+Stereo
+Text Label 3050 4550 2    50   ~ 0
+LT_chg_1
+Text Label 3200 4650 2    50   ~ 0
+Lounge_light
+Text Label 3050 5750 2    50   ~ 0
+Loungela
+Text Label 2750 5850 0    50   ~ 0
+Light_bath
+Text Label 2750 5950 0    50   ~ 0
+LT_chg_2
+Text Label 2750 6050 0    50   ~ 0
+Light_b2
+Text Label 650  6150 0    50   ~ 0
+kitchen_light
+Text Label 1050 7350 2    50   ~ 0
+Light_b1
+Text Label 3050 7250 2    50   ~ 0
+Lamp_b2
+Text Label 1050 7250 2    50   ~ 0
+Lamp_b1
+Text Label 1050 7150 2    50   ~ 0
+Ph_chg_1
+Text Label 700  7050 0    50   ~ 0
+Clock_b1
+Text Label 2750 6950 0    50   ~ 0
+Clock_b2
+Text Label 2750 7050 0    50   ~ 0
+Ph_chg_2
+Text Label 8000 3850 2    50   ~ 0
+Stereo
+Text Label 8000 2850 2    50   ~ 0
+LT_chg_1
+Text Label 8000 2950 2    50   ~ 0
+Lounge_light
+Text Label 8050 4250 2    50   ~ 0
+Loungela
+Text Label 8050 4350 2    50   ~ 0
+Light_bath
+Text Label 8050 4450 2    50   ~ 0
+LT_chg_2
+Text Label 8050 4550 2    50   ~ 0
+Light_b2
+Text Label 8050 4150 2    50   ~ 0
+kitchen_light
+Text Label 8050 5550 2    50   ~ 0
+Light_b1
+Text Label 8050 5950 2    50   ~ 0
+Lamp_b2
+Text Label 8050 5450 2    50   ~ 0
+Lamp_b1
+Text Label 8000 5350 2    50   ~ 0
+Ph_chg_1
+Text Label 8000 5250 2    50   ~ 0
+Clock_b1
+Text Label 8050 5650 2    50   ~ 0
+Clock_b2
+Text Label 8050 5750 2    50   ~ 0
+Ph_chg_2
+Text Label 3800 2900 2    50   ~ 0
+Oven
+Text Label 3800 3650 2    50   ~ 0
+Fridge
+Text Label 3800 4400 2    50   ~ 0
+Stereo
+Text Label 3800 5150 2    50   ~ 0
+LT_chg_1
+Text Label 3800 5900 2    50   ~ 0
+Lounge_light
+Text Label 5750 5900 2    50   ~ 0
+Water_heater
+Text Label 6750 2900 2    50   ~ 0
+Dishwasher
+Text Label 6750 3650 2    50   ~ 0
+Toaster
+Text Label 5750 6650 2    50   ~ 0
+Heater
+Text Label 5750 7400 2    50   ~ 0
+Jug
+Text Label 3800 7400 2    50   ~ 0
+Light_bath
+Text Label 4750 2900 2    50   ~ 0
+LT_chg_2
+Text Label 4750 3650 2    50   ~ 0
+Light_b2
+Text Label 4750 4400 2    50   ~ 0
+kitchen_light
+Text Label 4750 5150 2    50   ~ 0
+Light_b1
+Text Label 4750 5900 2    50   ~ 0
+Lamp_b2
+Text Label 4750 6650 2    50   ~ 0
+Lamp_b1
+Text Label 4750 7400 2    50   ~ 0
+Ph_chg_1
+Text Label 5700 3650 2    50   ~ 0
+Clock_b2
+Text Label 5650 4400 2    50   ~ 0
+Ph_chg_2
+Text Label 5650 5150 2    50   ~ 0
+Ph_chg_3
+Wire Wire Line
+	9250 5850 9450 5850
+Wire Wire Line
+	9250 5750 9450 5750
+Wire Wire Line
+	9250 5650 9450 5650
+Wire Wire Line
+	9250 5550 9450 5550
+Wire Wire Line
+	9250 5450 9450 5450
+Wire Wire Line
+	9250 5350 9450 5350
+Wire Wire Line
+	9250 5250 9450 5250
+Wire Wire Line
+	9250 2450 9450 2450
+Wire Wire Line
+	9250 2550 9450 2550
+Wire Wire Line
+	9250 2650 9450 2650
+Wire Wire Line
+	9250 2750 9450 2750
+Wire Wire Line
+	9250 2850 9450 2850
+Wire Wire Line
+	9250 2950 9450 2950
+Wire Wire Line
+	9250 3050 9450 3050
+Wire Wire Line
+	9250 3150 9450 3150
+Wire Wire Line
+	9250 3850 9450 3850
+Wire Wire Line
+	9250 3950 9450 3950
+Wire Wire Line
+	9250 4050 9450 4050
+Wire Wire Line
+	9250 4150 9450 4150
+Wire Wire Line
+	9250 4250 9450 4250
+Wire Wire Line
+	9250 4350 9450 4350
+Wire Wire Line
+	9250 4450 9450 4450
+Wire Wire Line
+	9250 4550 9450 4550
+Wire Wire Line
+	1050 4950 650  4950
+Wire Wire Line
+	1050 4850 650  4850
+Wire Wire Line
+	1050 4750 650  4750
+Wire Wire Line
+	1050 4650 650  4650
+Entry Wire Line
+	550  5950 650  5850
+Entry Wire Line
+	550  6050 650  5950
+Entry Wire Line
+	550  6150 650  6050
+Entry Wire Line
+	550  6250 650  6150
+Entry Wire Line
+	550  7150 650  7050
+Entry Wire Line
+	550  7250 650  7150
+Entry Wire Line
+	550  7350 650  7250
+Entry Wire Line
+	550  7450 650  7350
+Wire Wire Line
+	9650 2500 10200 2500
+Wire Wire Line
+	9650 2600 10000 2600
+Wire Wire Line
+	9650 2700 10200 2700
+Wire Wire Line
+	9650 2800 10000 2800
+Wire Wire Line
+	9650 2900 10200 2900
+Wire Wire Line
+	9650 3000 10000 3000
+Wire Wire Line
+	9650 3100 10200 3100
+Wire Wire Line
+	9650 3200 10000 3200
+Wire Wire Line
+	9650 3300 10200 3300
+Wire Wire Line
+	9650 3400 10000 3400
+Wire Wire Line
+	9650 3500 10200 3500
+Wire Wire Line
+	9650 3600 10000 3600
+Wire Wire Line
+	9650 3700 10200 3700
+Wire Wire Line
+	9650 3800 10000 3800
+Wire Wire Line
+	9650 3900 10200 3900
+Wire Wire Line
+	9650 4000 10000 4000
+Wire Wire Line
+	9650 4100 10200 4100
+Wire Wire Line
+	9650 4200 10000 4200
+Wire Wire Line
+	9650 4300 10200 4300
+Wire Wire Line
+	9650 4400 10000 4400
+Wire Wire Line
+	9650 4500 10200 4500
+Wire Wire Line
+	9650 4600 10000 4600
+Wire Wire Line
+	9650 4700 10200 4700
+Wire Wire Line
+	650  5850 1050 5850
+Wire Wire Line
+	1050 5950 650  5950
+Wire Wire Line
+	650  6050 1050 6050
+Wire Wire Line
+	1050 6150 650  6150
+Wire Wire Line
+	650  7050 1050 7050
+Wire Wire Line
+	1050 7150 650  7150
+Wire Wire Line
+	650  7250 1050 7250
+Wire Wire Line
+	1050 7350 650  7350
+Entry Wire Line
+	3200 5950 3300 6050
+Entry Wire Line
+	3200 6050 3300 6150
+Entry Wire Line
+	3200 5850 3300 5950
+Entry Wire Line
+	3200 5750 3300 5850
+Entry Wire Line
+	3200 4550 3300 4650
+Entry Wire Line
+	3200 4650 3300 4750
+Entry Wire Line
+	3200 4750 3300 4850
+Entry Wire Line
+	3200 4850 3300 4950
+Entry Wire Line
+	3200 6950 3300 7050
+Entry Wire Line
+	3200 7050 3300 7150
+Entry Wire Line
+	3200 7150 3300 7250
+Entry Wire Line
+	4300 3550 4400 3650
+Entry Wire Line
+	4300 2800 4400 2900
+Entry Wire Line
+	3300 7300 3400 7400
+Entry Wire Line
+	3300 5800 3400 5900
+Entry Wire Line
+	3300 5050 3400 5150
+Entry Wire Line
+	3300 4300 3400 4400
+Entry Wire Line
+	3300 3550 3400 3650
+Entry Wire Line
+	5250 4300 5350 4400
+Entry Wire Line
+	5250 5050 5350 5150
+Entry Wire Line
+	5250 3550 5350 3650
+Entry Wire Line
+	4300 7300 4400 7400
+Entry Wire Line
+	4300 6550 4400 6650
+Entry Wire Line
+	4300 5800 4400 5900
+Entry Wire Line
+	4300 5050 4400 5150
+Entry Wire Line
+	4300 4300 4400 4400
+Entry Wire Line
+	5250 5800 5350 5900
+Entry Wire Line
+	5250 6550 5350 6650
+Entry Wire Line
+	5250 7300 5350 7400
+Entry Wire Line
+	6250 2800 6350 2900
+Entry Wire Line
+	6250 3550 6350 3650
+Entry Wire Line
+	7550 2350 7650 2450
+Entry Wire Line
+	7550 2450 7650 2550
+Entry Wire Line
+	7550 2550 7650 2650
+Entry Wire Line
+	7550 2650 7650 2750
+Entry Wire Line
+	7550 2750 7650 2850
+Entry Wire Line
+	7550 2850 7650 2950
+Entry Wire Line
+	7550 2950 7650 3050
+Entry Wire Line
+	7550 3050 7650 3150
+Entry Wire Line
+	7550 3750 7650 3850
+Entry Wire Line
+	7550 3850 7650 3950
+Entry Wire Line
+	7550 3950 7650 4050
+Entry Wire Line
+	7550 4050 7650 4150
+Entry Wire Line
+	7550 4150 7650 4250
+Entry Wire Line
+	7550 4250 7650 4350
+Entry Wire Line
+	7550 4350 7650 4450
+Entry Wire Line
+	7550 4450 7650 4550
+Entry Wire Line
+	7550 5150 7650 5250
+Entry Wire Line
+	7550 5250 7650 5350
+Entry Wire Line
+	7550 5350 7650 5450
+Entry Wire Line
+	7550 5450 7650 5550
+Entry Wire Line
+	7550 5550 7650 5650
+Entry Wire Line
+	7550 5650 7650 5750
+Entry Wire Line
+	7550 5750 7650 5850
+Wire Wire Line
+	8050 2450 7650 2450
+Wire Wire Line
+	7650 2550 8050 2550
+Wire Wire Line
+	8050 2650 7650 2650
+Wire Wire Line
+	7650 2750 8050 2750
+Wire Wire Line
+	8050 2850 7650 2850
+Wire Wire Line
+	7650 2950 8050 2950
+Wire Wire Line
+	8050 3050 7650 3050
+Wire Wire Line
+	7650 3150 8050 3150
+Wire Wire Line
+	7650 3850 8050 3850
+Wire Wire Line
+	8050 3950 7650 3950
+Wire Wire Line
+	7650 4050 8050 4050
+Wire Wire Line
+	8050 4150 7650 4150
+Wire Wire Line
+	7650 4250 8050 4250
+Wire Wire Line
+	8050 4350 7650 4350
+Wire Wire Line
+	7650 4450 8050 4450
+Wire Wire Line
+	8050 4550 7650 4550
+Wire Wire Line
+	7650 5850 8050 5850
+Wire Wire Line
+	8050 5750 7650 5750
+Wire Wire Line
+	7650 5650 8050 5650
+Wire Wire Line
+	8050 5550 7650 5550
+Wire Wire Line
+	7650 5450 8050 5450
+Wire Wire Line
+	8050 5350 7650 5350
+Wire Wire Line
+	7650 5250 8050 5250
+Wire Wire Line
+	6750 3650 6350 3650
+Wire Wire Line
+	6750 2900 6350 2900
+Wire Wire Line
+	5750 6650 5350 6650
+Wire Wire Line
+	5350 5900 5750 5900
+Wire Wire Line
+	4750 4400 4400 4400
+Entry Wire Line
+	3300 2800 3400 2900
+Wire Wire Line
+	3800 2900 3400 2900
+Wire Wire Line
+	3400 3650 3800 3650
+Wire Wire Line
+	4400 5150 4750 5150
+Wire Wire Line
+	3800 4400 3400 4400
+Wire Wire Line
+	3400 5150 3800 5150
+Wire Wire Line
+	4400 6650 4750 6650
+Wire Wire Line
+	4750 7400 4400 7400
+Wire Wire Line
+	3800 5900 3400 5900
+Wire Wire Line
+	3800 7400 3400 7400
+Wire Wire Line
+	4750 2900 4400 2900
+Wire Wire Line
+	4400 3650 4750 3650
+Wire Wire Line
+	3200 7150 2750 7150
+Wire Wire Line
+	2750 7050 3200 7050
+Wire Wire Line
+	3200 6950 2750 6950
+Wire Wire Line
+	2750 6050 3200 6050
+Wire Wire Line
+	3200 5950 2750 5950
+Wire Wire Line
+	2750 5850 3200 5850
+Wire Wire Line
+	3200 5750 2750 5750
+Wire Wire Line
+	2750 4850 3200 4850
+Wire Wire Line
+	3200 4750 2750 4750
+Wire Wire Line
+	2750 4650 3200 4650
+Wire Wire Line
+	3200 4550 2750 4550
+Text GLabel 950  1750 0    50   Input ~ 0
+Data
+Text GLabel 950  1850 0    50   Input ~ 0
+Clock
+Wire Wire Line
+	3400 6650 3800 6650
+Entry Wire Line
+	5250 2800 5350 2900
+Entry Wire Line
+	3300 6550 3400 6650
+Text Label 5700 2900 2    50   ~ 0
+Clock_b1
+Text Label 3800 6650 2    50   ~ 0
+Loungela
+Wire Wire Line
+	5050 1900 5000 1900
+$Comp
+L Device:CP C7
+U 1 1 61FA6BE2
+P 4750 1950
+F 0 "C7" H 4600 1850 50  0000 L CNN
+F 1 "47uF" H 4750 1850 50  0000 L CNN
+F 2 "UUQ1H470MCL1GS:CAPAE825X1030N" H 4788 1800 50  0001 C CNN
+F 3 "~" H 4750 1950 50  0001 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2100 4750 2100
+Wire Wire Line
+	5050 2000 5050 2100
+Wire Wire Line
+	5050 1800 4750 1800
+$Comp
+L LM2662MX:LM2662MX IC7
+U 1 1 61F1320A
+P 5050 1700
+F 0 "IC7" H 5600 1850 50  0000 C CNN
+F 1 "LM2662MX" H 5600 1750 50  0000 C CNN
+F 2 "LM2662MX:SOIC127P600X175-8N" H 6000 1800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2662.pdf" H 6000 1700 50  0001 L CNN
+F 4 "IC REG SWTCHD CAP INV 0.2A 8SOIC" H 6000 1600 50  0001 L CNN "Description"
+F 5 "1.75" H 6000 1500 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6000 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "LM2662MX" H 6000 1300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "926-LM2662MX" H 6000 1200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM2662MX" H 6000 1100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6000 1000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6000 900 50  0001 L CNN "Arrow Price/Stock"
+	1    5050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 61F655A5
+P 6150 2150
+F 0 "C8" H 6300 2050 50  0000 R CNN
+F 1 "47uF" H 6150 2050 50  0000 R CNN
+F 2 "UUQ1H470MCL1GS:CAPAE825X1030N" H 6188 2000 50  0001 C CNN
+F 3 "~" H 6150 2150 50  0001 C CNN
+	1    6150 2150
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6150 1800
+NoConn ~ 5050 1700
+Connection ~ 4350 1300
+$Comp
+L power:+5V #PWR0106
+U 1 1 61E7A3F8
+P 4350 700
+F 0 "#PWR0106" H 4350 550 50  0001 C CNN
+F 1 "+5V" H 4365 873 50  0000 C CNN
+F 2 "" H 4350 700 50  0001 C CNN
+F 3 "" H 4350 700 50  0001 C CNN
+	1    4350 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 61E79EAA
+P 4350 1600
+F 0 "#PWR0107" H 4350 1350 50  0001 C CNN
+F 1 "GND" H 4355 1427 50  0000 C CNN
+F 2 "" H 4350 1600 50  0001 C CNN
+F 3 "" H 4350 1600 50  0001 C CNN
+	1    4350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61E79B3A
+P 4350 1450
+F 0 "R2" H 4420 1496 50  0000 L CNN
+F 1 "50k" H 4420 1405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 1450 50  0001 C CNN
+F 3 "~" H 4350 1450 50  0001 C CNN
+	1    4350 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61E78324
+P 4350 1150
+F 0 "R1" H 4420 1196 50  0000 L CNN
+F 1 "50k" H 4420 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4280 1150 50  0001 C CNN
+F 3 "~" H 4350 1150 50  0001 C CNN
+	1    4350 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1900 6350 1900
+Wire Wire Line
+	5000 1900 5000 2150
+Wire Wire Line
+	5000 2150 6000 2150
+Wire Wire Line
+	6000 2150 6000 2300
+$Comp
+L power:GND #PWR0116
+U 1 1 623667E4
+P 5000 2150
+F 0 "#PWR0116" H 5000 1900 50  0001 C CNN
+F 1 "GND" H 5005 1977 50  0000 C CNN
+F 2 "" H 5000 2150 50  0001 C CNN
+F 3 "" H 5000 2150 50  0001 C CNN
+	1    5000 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 2150
+$Comp
+L Sensor_Current:ACS723xLCTR-10AB U3
+U 1 1 623D291A
+P 7150 1700
+F 0 "U3" H 7150 2281 50  0000 C CNN
+F 1 "ACS723xLCTR-10AB" H 7150 2190 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7250 1350 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS723-Datasheet.ashx?la=en" H 7150 1700 50  0001 C CNN
+	1    7150 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7550 1800
+$Comp
+L power:+24V #PWR0117
+U 1 1 62562C25
+P 2900 800
+F 0 "#PWR0117" H 2900 650 50  0001 C CNN
+F 1 "+24V" H 2915 973 50  0000 C CNN
+F 2 "" H 2900 800 50  0001 C CNN
+F 3 "" H 2900 800 50  0001 C CNN
+	1    2900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0118
+U 1 1 62563CD7
+P 6750 700
+F 0 "#PWR0118" H 6750 550 50  0001 C CNN
+F 1 "+24V" H 6650 850 50  0000 C CNN
+F 2 "" H 6750 700 50  0001 C CNN
+F 3 "" H 6750 700 50  0001 C CNN
+	1    6750 700 
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  2850 0    50   Input ~ 0
+UART_RX
+NoConn ~ 950  2350
+NoConn ~ 950  2250
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 625D9EBC
+P 3100 800
+F 0 "J2" H 3128 776 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 3128 685 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm" H 3100 800 50  0001 C CNN
+F 3 "~" H 3100 800 50  0001 C CNN
+	1    3100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 625DB153
+P 2900 900
+F 0 "#PWR0120" H 2900 650 50  0001 C CNN
+F 1 "GND" H 2905 727 50  0000 C CNN
+F 2 "" H 2900 900 50  0001 C CNN
+F 3 "" H 2900 900 50  0001 C CNN
+	1    2900 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 1000 0    50   Input ~ 0
+UART_TX
+$Comp
+L Regulator_Linear:L7805 U2
+U 1 1 6264D88F
+P 3300 1550
+F 0 "U2" H 3300 1792 50  0000 C CNN
+F 1 "L7805" H 3300 1701 50  0000 C CNN
+F 2 "L7805CV-DG:TO255P460X1020X2008-3P" H 3325 1400 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3300 1500 50  0001 C CNN
+	1    3300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 6264EF01
+P 3300 1850
+F 0 "#PWR0121" H 3300 1600 50  0001 C CNN
+F 1 "GND" H 3305 1677 50  0000 C CNN
+F 2 "" H 3300 1850 50  0001 C CNN
+F 3 "" H 3300 1850 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 6264F255
+P 2900 1650
+F 0 "C1" H 2700 1650 50  0000 L CNN
+F 1 "10uF" H 2650 1550 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2900 1650 50  0001 C CNN
+F 3 "~" H 2900 1650 50  0001 C CNN
+	1    2900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 62651107
+P 2900 1750
+F 0 "#PWR0122" H 2900 1500 50  0001 C CNN
+F 1 "GND" H 2905 1577 50  0000 C CNN
+F 2 "" H 2900 1750 50  0001 C CNN
+F 3 "" H 2900 1750 50  0001 C CNN
+	1    2900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0123
+U 1 1 6265136B
+P 2900 1550
+F 0 "#PWR0123" H 2900 1400 50  0001 C CNN
+F 1 "+24V" H 2915 1723 50  0000 C CNN
+F 2 "" H 2900 1550 50  0001 C CNN
+F 3 "" H 2900 1550 50  0001 C CNN
+	1    2900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0124
+U 1 1 626519BD
+P 3700 1550
+F 0 "#PWR0124" H 3700 1400 50  0001 C CNN
+F 1 "+5V" H 3715 1723 50  0000 C CNN
+F 2 "" H 3700 1550 50  0001 C CNN
+F 3 "" H 3700 1550 50  0001 C CNN
+	1    3700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 62650ECC
+P 3700 1750
+F 0 "#PWR0125" H 3700 1500 50  0001 C CNN
+F 1 "GND" H 3705 1577 50  0000 C CNN
+F 2 "" H 3700 1750 50  0001 C CNN
+F 3 "" H 3700 1750 50  0001 C CNN
+	1    3700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6264F942
+P 3700 1650
+F 0 "C2" H 3792 1696 50  0000 L CNN
+F 1 "10uF" H 3792 1605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3700 1650 50  0001 C CNN
+F 3 "~" H 3700 1650 50  0001 C CNN
+	1    3700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1550 3700 1550
+Connection ~ 3700 1550
+Wire Wire Line
+	3000 1550 2900 1550
+Connection ~ 2900 1550
+Wire Wire Line
+	4350 1300 4700 1300
+$Comp
+L Device:C_Small C3
+U 1 1 62783530
+P 4700 1400
+F 0 "C3" H 4792 1446 50  0000 L CNN
+F 1 "0.1uF" H 4750 1300 50  0000 L CNN
+F 2 "C320C104J3G5TA:C320C104J3G5TA" H 4700 1400 50  0001 C CNN
+F 3 "~" H 4700 1400 50  0001 C CNN
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 1300
+Wire Wire Line
+	4700 1300 5050 1300
+$Comp
+L power:GND #PWR0126
+U 1 1 6279DDE4
+P 4700 1500
+F 0 "#PWR0126" H 4700 1250 50  0001 C CNN
+F 1 "GND" H 4705 1327 50  0000 C CNN
+F 2 "" H 4700 1500 50  0001 C CNN
+F 3 "" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 6279E709
+P 6450 1400
+F 0 "C4" H 6550 1400 50  0000 L CNN
+F 1 "0.1uF" H 6500 1300 50  0000 L CNN
+F 2 "C320C104J3G5TA:C320C104J3G5TA" H 6450 1400 50  0001 C CNN
+F 3 "~" H 6450 1400 50  0001 C CNN
+	1    6450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 6279F15B
+P 6450 1500
+F 0 "#PWR0127" H 6450 1250 50  0001 C CNN
+F 1 "GND" H 6455 1327 50  0000 C CNN
+F 2 "" H 6450 1500 50  0001 C CNN
+F 3 "" H 6450 1500 50  0001 C CNN
+	1    6450 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 1500 2    50   Input ~ 0
+CurrentDetect
+Wire Wire Line
+	9650 1500 9850 1500
+Connection ~ 9650 1500
+$Comp
+L Device:C_Small C6
+U 1 1 6262A3CB
+P 9650 1600
+F 0 "C6" H 9742 1646 50  0000 L CNN
+F 1 "0.1uF" H 9742 1555 50  0000 L CNN
+F 2 "C320C104J3G5TA:C320C104J3G5TA" H 9650 1600 50  0001 C CNN
+F 3 "~" H 9650 1600 50  0001 C CNN
+	1    9650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 626280A5
+P 9650 1700
+F 0 "#PWR0128" H 9650 1450 50  0001 C CNN
+F 1 "GND" H 9655 1527 50  0000 C CNN
+F 2 "" H 9650 1700 50  0001 C CNN
+F 3 "" H 9650 1700 50  0001 C CNN
+	1    9650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1500 9650 1500
+$Comp
+L Device:R R3
+U 1 1 623EEC33
+P 8250 1700
+F 0 "R3" H 8100 1750 50  0000 L CNN
+F 1 "50k" H 8050 1650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8180 1700 50  0001 C CNN
+F 3 "~" H 8250 1700 50  0001 C CNN
+	1    8250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 623EFE76
+P 9000 900
+F 0 "R4" V 8950 700 50  0000 C CNN
+F 1 "100k" V 9050 700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8930 900 50  0001 C CNN
+F 3 "~" H 9000 900 50  0001 C CNN
+	1    9000 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 6284CCEE
+P 7750 1600
+F 0 "C5" H 7850 1600 50  0000 L CNN
+F 1 "0.1uF" H 7800 1500 50  0000 L CNN
+F 2 "C320C104J3G5TA:C320C104J3G5TA" H 7750 1600 50  0001 C CNN
+F 3 "~" H 7750 1600 50  0001 C CNN
+	1    7750 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 62867657
+P 7750 1700
+F 0 "#PWR0129" H 7750 1450 50  0001 C CNN
+F 1 "GND" H 7755 1527 50  0000 C CNN
+F 2 "" H 7750 1700 50  0001 C CNN
+F 3 "" H 7750 1700 50  0001 C CNN
+	1    7750 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 1200 0    50   Input ~ 0
+CurrentDetect
+$Comp
+L Device:R R47
+U 1 1 628C3E8B
+P 2450 2300
+F 0 "R47" H 2520 2346 50  0000 L CNN
+F 1 "10k" H 2520 2255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 2300 50  0001 C CNN
+F 3 "~" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2550 2450 2550
+Wire Wire Line
+	2450 2550 2450 2450
+Wire Wire Line
+	2450 2150 2350 2150
+Text GLabel 2450 2550 2    50   Input ~ 0
+SwitchSignal
+$Comp
+L Motor:Fan M1
+U 1 1 61EA1CD3
+P 10800 1650
+F 0 "M1" H 10958 1746 50  0000 L CNN
+F 1 "Fan" H 10958 1655 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm" H 10800 1660 50  0001 C CNN
+F 3 "~" H 10800 1660 50  0001 C CNN
+	1    10800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0130
+U 1 1 61EA3183
+P 10800 800
+F 0 "#PWR0130" H 10800 650 50  0001 C CNN
+F 1 "+24V" H 10700 950 50  0000 C CNN
+F 2 "" H 10800 800 50  0001 C CNN
+F 3 "" H 10800 800 50  0001 C CNN
+	1    10800 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 61EA3CAC
+P 10800 1850
+F 0 "#PWR0131" H 10800 1600 50  0001 C CNN
+F 1 "GND" H 10805 1677 50  0000 C CNN
+F 2 "" H 10800 1850 50  0001 C CNN
+F 3 "" H 10800 1850 50  0001 C CNN
+	1    10800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 61F8C609
+P 1600 1000
+F 0 "J1" H 1628 1026 50  0000 L CNN
+F 1 "Conn_01x05_Female" H 1628 935 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x05_P8.8mm_D2.4mm_OD4.4mm" H 1600 1000 50  0001 C CNN
+F 3 "~" H 1600 1000 50  0001 C CNN
+	1    1600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 61F9012E
+P 700 800
+F 0 "#PWR0132" H 700 550 50  0001 C CNN
+F 1 "GND" H 705 627 50  0000 C CNN
+F 2 "" H 700 800 50  0001 C CNN
+F 3 "" H 700 800 50  0001 C CNN
+	1    700  800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 800  10800 1350
+$Comp
+L MCP6241-E_P:MCP6241-E_P IC8
+U 1 1 61F14B2B
+P 5050 1100
+F 0 "IC8" H 5600 1365 50  0000 C CNN
+F 1 "MCP6241-E_P" H 5600 1274 50  0000 C CNN
+F 2 "MCP6241-E_P:DIP781W56P254L950H533Q8N" H 6000 1200 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21882d.pdf" H 6000 1100 50  0001 L CNN
+F 4 "Microchip MCP6241-E/P, Op Amp, RRIO, 550kHz, 3 V, 5 V, 8-Pin PDIP" H 6000 1000 50  0001 L CNN "Description"
+F 5 "5.334" H 6000 900 50  0001 L CNN "Height"
+F 6 "Microchip" H 6000 800 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP6241-E/P" H 6000 700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "579-MCP6241-E/P" H 6000 600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6241-E-P?qs=g6BBfX6YTkkJAE8LlpYY9A%3D%3D" H 6000 500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MCP6241-E/P" H 6000 400 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mcp6241-ep/microchip-technology?region=nac" H 6000 300 50  0001 L CNN "Arrow Price/Stock"
+	1    5050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1300 6200 1300
+Wire Wire Line
+	5050 1200 5000 1200
+Wire Wire Line
+	5000 1200 5000 750 
+Wire Wire Line
+	5000 750  6200 750 
+Wire Wire Line
+	6200 750  6200 1300
+Connection ~ 6200 1300
+$Comp
+L power:GND #PWR0133
+U 1 1 61FB6907
+P 5050 1400
+F 0 "#PWR0133" H 5050 1150 50  0001 C CNN
+F 1 "GND" H 5055 1227 50  0000 C CNN
+F 2 "" H 5050 1400 50  0001 C CNN
+F 3 "" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0134
+U 1 1 61FB6DBF
+P 6300 700
+F 0 "#PWR0134" H 6300 550 50  0001 C CNN
+F 1 "+5V" H 6315 873 50  0000 C CNN
+F 2 "" H 6300 700 50  0001 C CNN
+F 3 "" H 6300 700 50  0001 C CNN
+	1    6300 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1200 6300 1200
+NoConn ~ 6150 1400
+NoConn ~ 6150 1100
+NoConn ~ 5050 1100
+Wire Wire Line
+	6200 1300 6450 1300
+Wire Wire Line
+	6350 1900 6350 2300
+Connection ~ 6150 2000
+Wire Wire Line
+	6200 750  7150 750 
+Connection ~ 6200 750 
+$Comp
+L MCP6241-E_P:MCP6241-E_P IC9
+U 1 1 621552A9
+P 8450 1300
+F 0 "IC9" H 9000 1565 50  0000 C CNN
+F 1 "MCP6241-E_P" H 9000 1474 50  0000 C CNN
+F 2 "MCP6241-E_P:DIP781W56P254L950H533Q8N" H 9400 1400 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21882d.pdf" H 9400 1300 50  0001 L CNN
+F 4 "Microchip MCP6241-E/P, Op Amp, RRIO, 550kHz, 3 V, 5 V, 8-Pin PDIP" H 9400 1200 50  0001 L CNN "Description"
+F 5 "5.334" H 9400 1100 50  0001 L CNN "Height"
+F 6 "Microchip" H 9400 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "MCP6241-E/P" H 9400 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "579-MCP6241-E/P" H 9400 800 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6241-E-P?qs=g6BBfX6YTkkJAE8LlpYY9A%3D%3D" H 9400 700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MCP6241-E/P" H 9400 600 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/mcp6241-ep/microchip-technology?region=nac" H 9400 500 50  0001 L CNN "Arrow Price/Stock"
+	1    8450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 621AF8D0
+P 8450 1600
+F 0 "#PWR0135" H 8450 1350 50  0001 C CNN
+F 1 "GND" H 8455 1427 50  0000 C CNN
+F 2 "" H 8450 1600 50  0001 C CNN
+F 3 "" H 8450 1600 50  0001 C CNN
+	1    8450 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1400 8250 1550
+Wire Wire Line
+	8250 1400 8450 1400
+$Comp
+L power:GND #PWR0136
+U 1 1 621CC748
+P 8250 1850
+F 0 "#PWR0136" H 8250 1600 50  0001 C CNN
+F 1 "GND" H 8255 1677 50  0000 C CNN
+F 2 "" H 8250 1850 50  0001 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1500 8450 1500
+Wire Wire Line
+	8250 1400 8250 900 
+Wire Wire Line
+	8250 900  8850 900 
+Connection ~ 8250 1400
+Wire Wire Line
+	9150 900  9650 900 
+Wire Wire Line
+	9650 900  9650 1500
+$Comp
+L power:+5V #PWR0137
+U 1 1 6223A226
+P 9750 800
+F 0 "#PWR0137" H 9750 650 50  0001 C CNN
+F 1 "+5V" H 9765 973 50  0000 C CNN
+F 2 "" H 9750 800 50  0001 C CNN
+F 3 "" H 9750 800 50  0001 C CNN
+	1    9750 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1400 9750 1400
+NoConn ~ 9550 1300
+NoConn ~ 8450 1300
+NoConn ~ 9550 1600
+Wire Wire Line
+	5900 2000 6150 2000
+Wire Wire Line
+	9750 800  9750 1400
+Wire Wire Line
+	6300 700  4350 700 
+Wire Wire Line
+	4350 700  4350 1000
+Wire Wire Line
+	6300 700  6300 1200
+Connection ~ 6300 700 
+Connection ~ 4350 700 
+Wire Wire Line
+	7550 1500 7750 1500
+Connection ~ 7750 1500
+Wire Wire Line
+	6150 1700 6200 1700
+Wire Wire Line
+	6200 1700 6200 1300
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q1
+U 1 1 61F31192
+P 3800 2900
+F 0 "Q1" H 3800 3100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3400 3000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 2850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 2750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 2650 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 2550 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 2900
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	550  7750 3300 7750
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q2
+U 1 1 620C63F2
+P 3800 3650
+F 0 "Q2" H 3800 3850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3400 3750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 3600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 3500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 3400 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 3300 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 3200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 3100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 3000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 2900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 2800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 2700 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q3
+U 1 1 620C794E
+P 3800 4400
+F 0 "Q3" H 3800 4600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3350 4500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 4350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 4250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 4150 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 4050 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 3950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 3850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 3750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 3650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 3550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 3450 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q4
+U 1 1 620C8535
+P 3800 5150
+F 0 "Q4" H 3800 5350 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3350 5250 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 5100 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 5000 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 4900 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 4800 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 4700 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 4500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 4400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 4300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 4200 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q5
+U 1 1 620C90EF
+P 3800 5900
+F 0 "Q5" H 3800 6100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3350 6000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 5850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 5750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 5650 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 5550 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 5450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 5350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 5250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 5150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 5050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 4950 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q6
+U 1 1 620C9AA3
+P 3800 6650
+F 0 "Q6" H 3800 6850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3350 6750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 6600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 6500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 6400 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 6300 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 6200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 6000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 5900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 5800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 5700 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q7
+U 1 1 620CA948
+P 3800 7400
+F 0 "Q7" H 3800 7600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 3350 7500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 4250 7350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 4250 7250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 4250 7150 50  0001 L CNN "Description"
+F 5 "4.83" H 4250 7050 50  0001 L CNN "Height"
+F 6 "Infineon" H 4250 6950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 4250 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 4250 6750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 4250 6650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 4250 6550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 4250 6450 50  0001 L CNN "Arrow Price/Stock"
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 62167CED
+P 3950 4000
+F 0 "R7" V 4000 3750 50  0000 C CNN
+F 1 "560" V 3950 4000 50  0000 C CNN
+F 2 "560R:ROX2SJ560R" V 3880 4000 50  0001 C CNN
+F 3 "~" H 3950 4000 50  0001 C CNN
+	1    3950 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 62168310
+P 3950 5500
+F 0 "R9" V 4000 5300 50  0000 C CNN
+F 1 "1k" V 3950 5500 50  0000 C CNN
+F 2 "1K_load:1K_load" V 3880 5500 50  0001 C CNN
+F 3 "~" H 3950 5500 50  0001 C CNN
+	1    3950 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 62168C34
+P 3950 3250
+F 0 "R6" V 4000 3050 50  0000 C CNN
+F 1 "390" V 3950 3250 50  0000 C CNN
+F 2 "ROX5SS:ROX5SS" V 3880 3250 50  0001 C CNN
+F 3 "~" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 6216941D
+P 3500 3850
+F 0 "#PWR0138" H 3500 3600 50  0001 C CNN
+F 1 "GND" H 3400 3750 50  0000 C CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 6216984B
+P 3500 4600
+F 0 "#PWR0139" H 3500 4350 50  0001 C CNN
+F 1 "GND" H 3400 4500 50  0000 C CNN
+F 2 "" H 3500 4600 50  0001 C CNN
+F 3 "" H 3500 4600 50  0001 C CNN
+	1    3500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 62169C1B
+P 3500 5350
+F 0 "#PWR0140" H 3500 5100 50  0001 C CNN
+F 1 "GND" H 3400 5250 50  0000 C CNN
+F 2 "" H 3500 5350 50  0001 C CNN
+F 3 "" H 3500 5350 50  0001 C CNN
+	1    3500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 62169F88
+P 3500 6100
+F 0 "#PWR0141" H 3500 5850 50  0001 C CNN
+F 1 "GND" H 3400 6000 50  0000 C CNN
+F 2 "" H 3500 6100 50  0001 C CNN
+F 3 "" H 3500 6100 50  0001 C CNN
+	1    3500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 6216A310
+P 3500 6850
+F 0 "#PWR0142" H 3500 6600 50  0001 C CNN
+F 1 "GND" H 3400 6750 50  0000 C CNN
+F 2 "" H 3500 6850 50  0001 C CNN
+F 3 "" H 3500 6850 50  0001 C CNN
+	1    3500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 6216A624
+P 3500 7600
+F 0 "#PWR0143" H 3500 7350 50  0001 C CNN
+F 1 "GND" H 3400 7500 50  0000 C CNN
+F 2 "" H 3500 7600 50  0001 C CNN
+F 3 "" H 3500 7600 50  0001 C CNN
+	1    3500 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 7750
+Wire Bus Line
+	4300 7750 5250 7750
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q8
+U 1 1 621988FB
+P 4750 2900
+F 0 "Q8" H 4750 3100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 3000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 2850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 2750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 2650 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 2550 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 62199CCA
+P 4500 3100
+F 0 "#PWR0144" H 4500 2850 50  0001 C CNN
+F 1 "GND" H 4400 3000 50  0000 C CNN
+F 2 "" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q9
+U 1 1 622518EF
+P 4750 3650
+F 0 "Q9" H 4750 3850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 3750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 3600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 3500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 3400 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 3300 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 3200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 3100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 3000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 2900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 2800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 2700 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q10
+U 1 1 622524D8
+P 4750 4400
+F 0 "Q10" H 4700 4600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 4500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 4350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 4250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 4150 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 4050 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 3950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 3850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 3750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 3650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 3550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 3450 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q11
+U 1 1 62252E51
+P 4750 5150
+F 0 "Q11" H 4700 5350 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 5250 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 5100 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 5000 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 4900 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 4800 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 4700 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 4500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 4400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 4300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 4200 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5900 4400 5900
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q12
+U 1 1 62254FB0
+P 4750 5900
+F 0 "Q12" H 4700 6100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 6000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 5850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 5750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 5650 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 5550 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 5450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 5350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 5250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 5150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 5050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 4950 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q13
+U 1 1 62255D68
+P 4750 6650
+F 0 "Q13" H 4700 6850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4300 6750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 6600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 6500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 6400 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 6300 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 6200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 6000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 5900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 5800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 5700 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q14
+U 1 1 62256450
+P 4750 7400
+F 0 "Q14" H 4700 7600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 4350 7500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 5200 7350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 5200 7250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 5200 7150 50  0001 L CNN "Description"
+F 5 "4.83" H 5200 7050 50  0001 L CNN "Height"
+F 6 "Infineon" H 5200 6950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 5200 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 5200 6750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 5200 6650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 5200 6550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 5200 6450 50  0001 L CNN "Arrow Price/Stock"
+	1    4750 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 7750
+Wire Bus Line
+	3300 7750 4300 7750
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q15
+U 1 1 623CE48C
+P 5750 2900
+F 0 "Q15" H 5700 3100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 3000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 2850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 2750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 2650 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 2550 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q16
+U 1 1 623CF61B
+P 5750 3650
+F 0 "Q16" H 5700 3850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 3750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 3600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 3500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 3400 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 3300 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 3200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 3100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 3000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 2900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 2800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 2700 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q17
+U 1 1 623CFE46
+P 5750 4400
+F 0 "Q17" H 5700 4600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5350 4500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 4350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 4250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 4150 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 4050 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 3950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 3850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 3750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 3650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 3550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 3450 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q18
+U 1 1 623D0709
+P 5750 5150
+F 0 "Q18" H 5700 5350 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 5250 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 5100 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 5000 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 4900 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 4800 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 4700 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 4500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 4400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 4300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 4200 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q19
+U 1 1 623D15B4
+P 5750 5900
+F 0 "Q19" H 5700 6100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 6000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 5850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 5750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 5650 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 5550 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 5450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 5350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 5250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 5150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 5050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 4950 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q20
+U 1 1 623D2029
+P 5750 6650
+F 0 "Q20" H 5700 6850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 6750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 6600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 6500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 6400 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 6300 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 6200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 6100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 6000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 5900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 5800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 5700 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 7400 5750 7400
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q21
+U 1 1 623D3DBA
+P 5750 7400
+F 0 "Q21" H 5700 7600 50  0000 L CNN
+F 1 "IRLB8721PBF" H 5300 7500 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 6200 7350 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 6200 7250 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 6200 7150 50  0001 L CNN "Description"
+F 5 "4.83" H 6200 7050 50  0001 L CNN "Height"
+F 6 "Infineon" H 6200 6950 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 6200 6850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 6200 6750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 6200 6650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 6200 6550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 6200 6450 50  0001 L CNN "Arrow Price/Stock"
+	1    5750 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 7750
+Wire Wire Line
+	5350 2900 5750 2900
+Wire Wire Line
+	5350 3650 5750 3650
+Wire Wire Line
+	5350 4400 5750 4400
+Wire Wire Line
+	5350 5150 5750 5150
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q22
+U 1 1 624BF496
+P 6750 2900
+F 0 "Q22" H 6700 3100 50  0000 L CNN
+F 1 "IRLB8721PBF" H 6300 3000 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 7200 2850 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 7200 2750 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 7200 2650 50  0001 L CNN "Description"
+F 5 "4.83" H 7200 2550 50  0001 L CNN "Height"
+F 6 "Infineon" H 7200 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 7200 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 7200 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 7200 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 7200 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 7200 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    6750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q23
+U 1 1 624C015D
+P 6750 3650
+F 0 "Q23" H 6750 3850 50  0000 L CNN
+F 1 "IRLB8721PBF" H 6350 3750 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 7200 3600 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 7200 3500 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 7200 3400 50  0001 L CNN "Description"
+F 5 "4.83" H 7200 3300 50  0001 L CNN "Height"
+F 6 "Infineon" H 7200 3200 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 7200 3100 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 7200 3000 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 7200 2900 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 7200 2800 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 7200 2700 50  0001 L CNN "Arrow Price/Stock"
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	5250 7750 6250 7750
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 6252AC2D
+P 6850 3250
+F 0 "J7" H 6950 3400 50  0000 L CNN
+F 1 "From_toaster" H 6950 3300 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 6850 3250 50  0001 C CNN
+F 3 "~" H 6850 3250 50  0001 C CNN
+	1    6850 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 6252C01E
+P 6850 2500
+F 0 "J6" H 6930 2542 50  0000 L CNN
+F 1 "From_dish" H 6800 2400 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 6850 2500 50  0001 C CNN
+F 3 "~" H 6850 2500 50  0001 C CNN
+	1    6850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 6252C63F
+P 5850 7000
+F 0 "J5" H 5930 7042 50  0000 L CNN
+F 1 "From_jug" H 5800 6900 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 5850 7000 50  0001 C CNN
+F 3 "~" H 5850 7000 50  0001 C CNN
+	1    5850 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 6252D0E3
+P 5850 6250
+F 0 "J4" H 5930 6292 50  0000 L CNN
+F 1 "From_heater" H 5800 6150 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 5850 6250 50  0001 C CNN
+F 3 "~" H 5850 6250 50  0001 C CNN
+	1    5850 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 6252D617
+P 5850 5500
+F 0 "J3" H 5930 5542 50  0000 L CNN
+F 1 "From_water_heater" H 5700 5600 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 5850 5500 50  0001 C CNN
+F 3 "~" H 5850 5500 50  0001 C CNN
+	1    5850 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6252FEA5
+P 3950 4750
+F 0 "R8" V 4000 4550 50  0000 C CNN
+F 1 "820" V 3950 4750 50  0000 C CNN
+F 2 "MFP1:MFP1_res" V 3880 4750 50  0001 C CNN
+F 3 "~" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 62530B85
+P 4900 7000
+F 0 "R18" V 4950 6800 50  0000 C CNN
+F 1 "8k2" V 4900 7000 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 4830 7000 50  0001 C CNN
+F 3 "~" H 4900 7000 50  0001 C CNN
+	1    4900 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 625310A8
+P 5900 4750
+F 0 "R22" V 5950 4550 50  0000 C CNN
+F 1 "18k" V 5900 4750 50  0000 C CNN
+F 2 "18k_res:18k_res" V 5830 4750 50  0001 C CNN
+F 3 "~" H 5900 4750 50  0001 C CNN
+	1    5900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 62532AD1
+P 5900 2500
+F 0 "R19" V 5950 2300 50  0000 C CNN
+F 1 "10k" V 5900 2500 50  0000 C CNN
+F 2 "18k_res:10k_res" V 5830 2500 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 625BDDF9
+P 6450 4700
+F 0 "#PWR0145" H 6450 4450 50  0001 C CNN
+F 1 "GND" H 6350 4600 50  0000 C CNN
+F 2 "" H 6450 4700 50  0001 C CNN
+F 3 "" H 6450 4700 50  0001 C CNN
+	1    6450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 625BE142
+P 5450 3850
+F 0 "#PWR0146" H 5450 3600 50  0001 C CNN
+F 1 "GND" H 5350 3750 50  0000 C CNN
+F 2 "" H 5450 3850 50  0001 C CNN
+F 3 "" H 5450 3850 50  0001 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 625BE4E2
+P 5450 4600
+F 0 "#PWR0147" H 5450 4350 50  0001 C CNN
+F 1 "GND" H 5350 4500 50  0000 C CNN
+F 2 "" H 5450 4600 50  0001 C CNN
+F 3 "" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 625BE77A
+P 5450 5350
+F 0 "#PWR0148" H 5450 5100 50  0001 C CNN
+F 1 "GND" H 5350 5250 50  0000 C CNN
+F 2 "" H 5450 5350 50  0001 C CNN
+F 3 "" H 5450 5350 50  0001 C CNN
+	1    5450 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 625BF5D5
+P 4500 3850
+F 0 "#PWR0149" H 4500 3600 50  0001 C CNN
+F 1 "GND" H 4400 3750 50  0000 C CNN
+F 2 "" H 4500 3850 50  0001 C CNN
+F 3 "" H 4500 3850 50  0001 C CNN
+	1    4500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 625BFA64
+P 4500 4600
+F 0 "#PWR0150" H 4500 4350 50  0001 C CNN
+F 1 "GND" H 4400 4500 50  0000 C CNN
+F 2 "" H 4500 4600 50  0001 C CNN
+F 3 "" H 4500 4600 50  0001 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 625BFE4A
+P 4500 5350
+F 0 "#PWR0151" H 4500 5100 50  0001 C CNN
+F 1 "GND" H 4400 5250 50  0000 C CNN
+F 2 "" H 4500 5350 50  0001 C CNN
+F 3 "" H 4500 5350 50  0001 C CNN
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 625C037C
+P 4500 6100
+F 0 "#PWR0152" H 4500 5850 50  0001 C CNN
+F 1 "GND" H 4400 6000 50  0000 C CNN
+F 2 "" H 4500 6100 50  0001 C CNN
+F 3 "" H 4500 6100 50  0001 C CNN
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 625C06F4
+P 4500 6850
+F 0 "#PWR0153" H 4500 6600 50  0001 C CNN
+F 1 "GND" H 4400 6750 50  0000 C CNN
+F 2 "" H 4500 6850 50  0001 C CNN
+F 3 "" H 4500 6850 50  0001 C CNN
+	1    4500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 625C0B13
+P 4500 7600
+F 0 "#PWR0154" H 4500 7350 50  0001 C CNN
+F 1 "GND" H 4400 7500 50  0000 C CNN
+F 2 "" H 4500 7600 50  0001 C CNN
+F 3 "" H 4500 7600 50  0001 C CNN
+	1    4500 7600
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7550 6500 6250 6500
+Connection ~ 6250 6500
+Wire Bus Line
+	6250 6500 6250 7750
+$Comp
+L Device:R R45
+U 1 1 6262C110
+P 10350 4700
+F 0 "R45" V 10400 4450 50  0000 L CNN
+F 1 "150" V 10350 4600 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10280 4700 50  0001 C CNN
+F 3 "~" H 10350 4700 50  0001 C CNN
+	1    10350 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 6262C7A6
+P 10150 4600
+F 0 "R44" V 10200 4700 50  0000 L CNN
+F 1 "150" V 10150 4500 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 4600 50  0001 C CNN
+F 3 "~" H 10150 4600 50  0001 C CNN
+	1    10150 4600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 950  2750 0    50   Input ~ 0
+UART_TX
+Wire Wire Line
+	700  800  1400 800 
+Text GLabel 6750 1800 0    50   Input ~ 0
+24V
+$Comp
+L power:+5V #PWR0156
+U 1 1 61FA6695
+P 2750 4350
+F 0 "#PWR0156" H 2750 4200 50  0001 C CNN
+F 1 "+5V" H 2765 4523 50  0000 C CNN
+F 2 "" H 2750 4350 50  0001 C CNN
+F 3 "" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0157
+U 1 1 61FA6CDC
+P 2750 5550
+F 0 "#PWR0157" H 2750 5400 50  0001 C CNN
+F 1 "+5V" H 2765 5723 50  0000 C CNN
+F 2 "" H 2750 5550 50  0001 C CNN
+F 3 "" H 2750 5550 50  0001 C CNN
+	1    2750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0158
+U 1 1 61FA72B8
+P 2750 6750
+F 0 "#PWR0158" H 2750 6600 50  0001 C CNN
+F 1 "+5V" H 2765 6923 50  0000 C CNN
+F 2 "" H 2750 6750 50  0001 C CNN
+F 3 "" H 2750 6750 50  0001 C CNN
+	1    2750 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4450 2750 4350
+Connection ~ 2750 4350
+Wire Wire Line
+	2750 5650 2750 5550
+Connection ~ 2750 5550
+Wire Wire Line
+	2750 6850 2750 6750
+Connection ~ 2750 6750
+Text GLabel 4200 2200 0    50   Input ~ 0
+24V
+Wire Wire Line
+	4200 2200 4250 2200
+$Comp
+L IRLB8721PBF:IRLB8721PBF Q24
+U 1 1 6209822F
+P 6750 4500
+F 0 "Q24" H 6750 4700 50  0000 L CNN
+F 1 "IRLB8721PBF" H 6300 4600 50  0000 L CNN
+F 2 "IRLB8721PBF:TO254P483X1016X1994-3P" H 7200 4450 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7259322" H 7200 4350 50  0001 L CNN
+F 4 "Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB" H 7200 4250 50  0001 L CNN "Description"
+F 5 "4.83" H 7200 4150 50  0001 L CNN "Height"
+F 6 "Infineon" H 7200 4050 50  0001 L CNN "Manufacturer_Name"
+F 7 "IRLB8721PBF" H 7200 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "942-IRLB8721PBF" H 7200 3850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLB8721PBF?qs=9%252BKlkBgLFf0T58WYx%2FAl5A%3D%3D" H 7200 3750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "IRLB8721PBF" H 7200 3650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/irlb8721pbf/infineon-technologies-ag?region=nac" H 7200 3550 50  0001 L CNN "Arrow Price/Stock"
+	1    6750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 62098FF0
+P 6850 4100
+F 0 "J9" H 6930 4142 50  0000 L CNN
+F 1 "From_TV" H 6800 4000 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 6850 4100 50  0001 C CNN
+F 3 "~" H 6850 4100 50  0001 C CNN
+	1    6850 4100
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	6250 4400 6350 4500
+Wire Wire Line
+	6350 4500 6750 4500
+Text Label 6350 4500 0    50   ~ 0
+TV
+Text Label 2750 7150 0    50   ~ 0
+Ph_chg_3
+Entry Wire Line
+	3200 7250 3300 7350
+Wire Wire Line
+	2750 7250 3200 7250
+$Comp
+L Device:R R10
+U 1 1 621F0874
+P 3950 6250
+F 0 "R10" V 4000 6050 50  0000 C CNN
+F 1 "1k" V 3950 6250 50  0000 C CNN
+F 2 "1K_load:1K_load" V 3880 6250 50  0001 C CNN
+F 3 "~" H 3950 6250 50  0001 C CNN
+	1    3950 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 621F5CE4
+P 3950 7000
+F 0 "R11" V 4000 6800 50  0000 C CNN
+F 1 "1k" V 3950 7000 50  0000 C CNN
+F 2 "1K_load:1K_load" V 3880 7000 50  0001 C CNN
+F 3 "~" H 3950 7000 50  0001 C CNN
+	1    3950 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 621FCD20
+P 4900 2500
+F 0 "R12" V 4950 2300 50  0000 C CNN
+F 1 "1k" V 4900 2500 50  0000 C CNN
+F 2 "1K_load:1K_load" V 4830 2500 50  0001 C CNN
+F 3 "~" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 62207CEC
+P 4900 3250
+F 0 "R13" V 4950 3050 50  0000 C CNN
+F 1 "1k2" V 4900 3250 50  0000 C CNN
+F 2 "1k2_res:1k2_res_v2" V 4830 3250 50  0001 C CNN
+F 3 "~" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 62213CFB
+P 4900 4000
+F 0 "R14" V 4950 3800 50  0000 C CNN
+F 1 "1k5" V 4900 4000 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 4830 4000 50  0001 C CNN
+F 3 "~" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 62215EBB
+P 4900 4750
+F 0 "R15" V 4950 4550 50  0000 C CNN
+F 1 "2k2" V 4900 4750 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 4830 4750 50  0001 C CNN
+F 3 "~" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 622201C2
+P 4900 5500
+F 0 "R16" V 4950 5300 50  0000 C CNN
+F 1 "2k2" V 4900 5500 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 4830 5500 50  0001 C CNN
+F 3 "~" H 4900 5500 50  0001 C CNN
+	1    4900 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 62223DF7
+P 4900 6250
+F 0 "R17" V 4950 6050 50  0000 C CNN
+F 1 "3k3" V 4900 6250 50  0000 C CNN
+F 2 "3k3R:LR1F3K3" V 4830 6250 50  0001 C CNN
+F 3 "~" H 4900 6250 50  0001 C CNN
+	1    4900 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 62255E62
+P 5900 3250
+F 0 "R20" V 5950 3050 50  0000 C CNN
+F 1 "12k" V 5900 3250 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 5830 3250 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 6225DFFE
+P 5900 4000
+F 0 "R21" V 5950 3800 50  0000 C CNN
+F 1 "12k" V 5900 4000 50  0000 C CNN
+F 2 "LR1:LR1F1K5" V 5830 4000 50  0001 C CNN
+F 3 "~" H 5900 4000 50  0001 C CNN
+	1    5900 4000
+	0    1    1    0   
+$EndComp
+Text Label 8000 3950 2    50   ~ 0
+Fridge
+Text Label 7950 4050 2    50   ~ 0
+Oven
+Text Label 8000 2450 2    50   ~ 0
+TV
+Text Label 8000 2550 2    50   ~ 0
+Toaster
+Text Label 8050 2650 2    50   ~ 0
+Dishwasher
+Text Label 8000 2750 2    50   ~ 0
+Jug
+Text Label 8000 3150 2    50   ~ 0
+Heater
+Text Label 8050 3050 2    50   ~ 0
+Water_heater
+Entry Wire Line
+	7550 5850 7650 5950
+Text Label 7700 5850 0    50   ~ 0
+Ph_chg_3
+Wire Wire Line
+	8050 5950 7650 5950
+Entry Wire Line
+	9450 5950 9550 5850
+Wire Wire Line
+	9250 5950 9450 5950
+Text Label 9250 5950 0    50   ~ 0
+LED24
+$Comp
+L Device:R R46
+U 1 1 623885B9
+P 10150 4800
+F 0 "R46" V 10200 4900 50  0000 L CNN
+F 1 "150" V 10150 4700 50  0000 L CNN
+F 2 "footprints:RNMF14FTC150R" V 10080 4800 50  0001 C CNN
+F 3 "~" H 10150 4800 50  0001 C CNN
+	1    10150 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10300 4800 10600 4800
+Entry Wire Line
+	9550 4700 9650 4800
+Wire Wire Line
+	9650 4800 10000 4800
+Text Label 9650 4800 0    50   ~ 0
+LED24
+Wire Wire Line
+	4250 2400 3800 2400
+Wire Wire Line
+	3800 2400 3800 2500
+Wire Wire Line
+	3500 3100 4100 3100
+Wire Wire Line
+	4250 3150 3800 3150
+Wire Wire Line
+	3800 3150 3800 3250
+Connection ~ 4250 3150
+Wire Wire Line
+	3500 3850 4100 3850
+Wire Wire Line
+	4250 3150 4250 3900
+Wire Wire Line
+	4250 3900 3800 3900
+Wire Wire Line
+	3800 3900 3800 4000
+Connection ~ 4250 3900
+Wire Wire Line
+	3500 4600 4100 4600
+Wire Wire Line
+	4250 3900 4250 4650
+Wire Wire Line
+	3800 4750 3800 4650
+Wire Wire Line
+	3800 4650 4250 4650
+Connection ~ 4250 4650
+Wire Wire Line
+	3500 5350 4100 5350
+Wire Wire Line
+	4250 4650 4250 5400
+Wire Wire Line
+	3800 5500 3800 5400
+Wire Wire Line
+	3800 5400 4250 5400
+Connection ~ 4250 5400
+Wire Wire Line
+	3500 6100 4100 6100
+Wire Wire Line
+	4250 5400 4250 6150
+Wire Wire Line
+	3800 6250 3800 6150
+Wire Wire Line
+	3800 6150 4250 6150
+Connection ~ 4250 6150
+Wire Wire Line
+	4250 6150 4250 6900
+Wire Wire Line
+	3500 6850 4100 6850
+Wire Wire Line
+	3800 7000 3800 6900
+Wire Wire Line
+	3800 6900 4250 6900
+Wire Wire Line
+	3500 7600 4100 7600
+Wire Wire Line
+	4250 2400 4250 3150
+Wire Wire Line
+	6000 2300 6150 2300
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 2300 6350 2300
+Wire Wire Line
+	6150 2000 6700 2000
+Wire Wire Line
+	6700 2000 6700 2100
+Wire Wire Line
+	6700 2100 7150 2100
+Wire Wire Line
+	6750 700  6750 1500
+Wire Wire Line
+	7150 750  7150 1300
+Wire Wire Line
+	4250 2200 4250 2400
+Connection ~ 4250 2400
+Wire Wire Line
+	4250 2400 4750 2400
+Wire Wire Line
+	4750 2500 4750 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2400 5200 2400
+Connection ~ 5200 2400
+Wire Wire Line
+	4500 3100 5050 3100
+Wire Wire Line
+	5200 2400 5200 3150
+Wire Wire Line
+	5200 3150 4750 3150
+Wire Wire Line
+	4750 3150 4750 3250
+Connection ~ 5200 3150
+Wire Wire Line
+	4500 3850 5050 3850
+Wire Wire Line
+	5200 3150 5200 3900
+Wire Wire Line
+	4750 4000 4750 3900
+Wire Wire Line
+	4750 3900 5200 3900
+Connection ~ 5200 3900
+Wire Wire Line
+	4500 4600 5050 4600
+Wire Wire Line
+	5200 3900 5200 4650
+Wire Wire Line
+	4750 4750 4750 4650
+Wire Wire Line
+	4750 4650 5200 4650
+Connection ~ 5200 4650
+Wire Wire Line
+	4500 5350 5050 5350
+Wire Wire Line
+	5200 4650 5200 5400
+Wire Wire Line
+	4750 5500 4750 5400
+Wire Wire Line
+	4750 5400 5200 5400
+Connection ~ 5200 5400
+Wire Wire Line
+	4500 6100 5050 6100
+Wire Wire Line
+	5200 5400 5200 6150
+Wire Wire Line
+	4750 6250 4750 6150
+Wire Wire Line
+	4750 6150 5200 6150
+Connection ~ 5200 6150
+Wire Wire Line
+	5200 6150 5200 6900
+Wire Wire Line
+	4500 6850 5050 6850
+Wire Wire Line
+	4750 7000 4750 6900
+Wire Wire Line
+	4750 6900 5200 6900
+Wire Wire Line
+	4500 7600 5050 7600
+Wire Wire Line
+	5450 3100 6050 3100
+Wire Wire Line
+	6200 2400 6200 3150
+Wire Wire Line
+	5750 3250 5750 3150
+Wire Wire Line
+	5750 3150 6200 3150
+Connection ~ 6200 3150
+Wire Wire Line
+	5450 3850 6050 3850
+Wire Wire Line
+	6200 3150 6200 3900
+Wire Wire Line
+	5750 4000 5750 3900
+Wire Wire Line
+	5750 3900 6200 3900
+Connection ~ 6200 3900
+Wire Wire Line
+	5450 4600 6050 4600
+Wire Wire Line
+	6200 3900 6200 4650
+Wire Wire Line
+	5750 4750 5750 4650
+Wire Wire Line
+	5750 4650 6200 4650
+Wire Wire Line
+	5450 5350 6050 5350
+$Comp
+L power:GND #PWR0102
+U 1 1 62800E5B
+P 5450 6850
+F 0 "#PWR0102" H 5450 6600 50  0001 C CNN
+F 1 "GND" H 5350 6750 50  0000 C CNN
+F 2 "" H 5450 6850 50  0001 C CNN
+F 3 "" H 5450 6850 50  0001 C CNN
+	1    5450 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6850 6050 6850
+$Comp
+L power:GND #PWR0155
+U 1 1 62824E68
+P 5450 7600
+F 0 "#PWR0155" H 5450 7350 50  0001 C CNN
+F 1 "GND" H 5350 7500 50  0000 C CNN
+F 2 "" H 5450 7600 50  0001 C CNN
+F 3 "" H 5450 7600 50  0001 C CNN
+	1    5450 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7600 6050 7600
+Wire Wire Line
+	6450 3100 7050 3100
+Wire Wire Line
+	6450 3850 7050 3850
+Wire Wire Line
+	6450 4700 7050 4700
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 628D2E74
+P 6850 5150
+F 0 "J10" H 6930 5192 50  0000 L CNN
+F 1 "24V_to_chassis" H 6800 5050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" H 6850 5150 50  0001 C CNN
+F 3 "~" H 6850 5150 50  0001 C CNN
+	1    6850 5150
+	-1   0    0    1   
+$EndComp
+Text GLabel 7050 5150 2    50   Input ~ 0
+24V
+$Comp
+L power:GND #PWR0159
+U 1 1 628DA001
+P 6450 3850
+F 0 "#PWR0159" H 6450 3600 50  0001 C CNN
+F 1 "GND" H 6350 3750 50  0000 C CNN
+F 2 "" H 6450 3850 50  0001 C CNN
+F 3 "" H 6450 3850 50  0001 C CNN
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 628DA6B0
+P 6450 3100
+F 0 "#PWR0160" H 6450 2850 50  0001 C CNN
+F 1 "GND" H 6350 3000 50  0000 C CNN
+F 2 "" H 6450 3100 50  0001 C CNN
+F 3 "" H 6450 3100 50  0001 C CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 62920872
+P 5450 3100
+F 0 "#PWR0161" H 5450 2850 50  0001 C CNN
+F 1 "GND" H 5350 3000 50  0000 C CNN
+F 2 "" H 5450 3100 50  0001 C CNN
+F 3 "" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2400 5750 2400
+Wire Wire Line
+	5750 2500 5750 2400
+Wire Bus Line
+	6250 2800 6250 6500
+Wire Bus Line
+	4300 2800 4300 7750
+Wire Bus Line
+	5250 2800 5250 7750
+Wire Bus Line
+	550  4750 550  7750
+Wire Bus Line
+	3300 2800 3300 7750
+Wire Bus Line
+	7550 2350 7550 6500
+Wire Bus Line
+	9550 2350 9550 5850
+Connection ~ 5750 2400
+Wire Wire Line
+	5750 2400 6200 2400
+$EndSCHEMATC

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C320C104J3G5TA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kemet", "C320C104J3G5TA" (!) = "", "C320C104J3G5TA", "Other", "80-C320C104J3G5TA", "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104J3G5TA?qs=h3%2Fj8evtlm3MCUfqh6eOGg%3D%3D", "", "", "Multilayer Ceramic Capacitors MLCC - Leaded .100UF 25.0V", "https://www.mouser.ch/ProductDetail/80-C320C104J3G5TA", "7.36 mm"
+END_PART
+
+END.

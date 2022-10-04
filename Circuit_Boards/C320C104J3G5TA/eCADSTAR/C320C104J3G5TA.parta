@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_11487034"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-11-08:23:14)
+    (utime 2020-09-12-06:29:12)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "C320C104J3G5TA")
+)
+
+
+(pinAssign "ECS_11487034"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-11-08:23:14)
+    (utime 2020-09-12-06:29:12)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11487034")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "C320C104J3G5TA")
+)
+
+
+(part "C320C104J3G5TA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-11-08:23:14)
+    (utime 2020-09-12-06:29:12)
+    (packageRef "C320C104J3G5TA")
+    (pinAssignRef "ECS_11487034")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Multilayer Ceramic Capacitors MLCC - Leaded .100UF 25.0V")
+    (property "Manufacturer_Name" "Kemet")
+    (property "Manufacturer_Part_Number" "C320C104J3G5TA")
+    (property "Mouser_Part_Number" "80-C320C104J3G5TA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C320C104J3G5TA?qs=h3%2Fj8evtlm3MCUfqh6eOGg%3D%3D")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.mouser.ch/ProductDetail/80-C320C104J3G5TA")
+    (property "compAreaTopHeight" 7.36)
+)
+
+

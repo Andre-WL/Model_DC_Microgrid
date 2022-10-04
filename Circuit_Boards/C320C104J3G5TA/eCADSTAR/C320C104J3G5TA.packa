@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C320C104J3G5TA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-11-08:23:14)
+    (mountForm default
+        (footprintRef "C320C104J3G5TA")
+        (spec "System")
+    )
+)

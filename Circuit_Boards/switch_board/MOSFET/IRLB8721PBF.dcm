@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRLB8721PBF
+D Infineon IRLB8721PBF N-Channel MOSFET, 62 A, 30 V HEXFET, 3-Pin TO-220AB
+K
+F http://uk.rs-online.com/web/p/products/7259322
+$ENDCMP
+#
+#End Doc Library

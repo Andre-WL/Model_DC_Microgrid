@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ADG608BNZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-02-06:37:42)
+    (mountForm default
+        (footprintRef "DIP794W56P254L2013H533Q16N")
+        (spec "System")
+    )
+)

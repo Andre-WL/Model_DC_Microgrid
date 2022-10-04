@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLC59211IN
+D 8-Bit DMOS Sink Driver
+K
+F http://www.ti.com/lit/gpn/tlc59211
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Kemet
+PartNumber=C320C104J3G5TA
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2020-09-11 08:23:14
+Downloaded=2022-01-24 23:02:39
+3D=Y

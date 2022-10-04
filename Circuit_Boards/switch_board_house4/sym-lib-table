@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name CD4094BE)(type Legacy)(uri ${KIPRJMOD}/CD4094BE.lib)(options "")(descr ""))
+  (lib (name IRLB8721PBF)(type Legacy)(uri ${KIPRJMOD}/MOSFET/IRLB8721PBF.lib)(options "")(descr ""))
+  (lib (name TN2106N3-G)(type Legacy)(uri ${KIPRJMOD}/ul_TN2106N3-G/ul_TN2106N3-G/TN2106N3-G.lib)(options "")(descr ""))
+)

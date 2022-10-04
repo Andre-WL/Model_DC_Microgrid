@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2662MX
+D IC REG SWTCHD CAP INV 0.2A 8SOIC
+K
+F http://www.ti.com/lit/ds/symlink/lm2662.pdf
+$ENDCMP
+#
+#End Doc Library

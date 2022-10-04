@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3221A6T-E_OTVAO
+D Analog to Digital Converters - ADC Automotive, 12-bit SAR ADC, I2C, single channel
+K
+F https://www.arrow.com/en/products/mcp3221a6t-eotvao/microchip-technology
+$ENDCMP
+#
+#End Doc Library

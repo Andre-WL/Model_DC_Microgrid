@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name C320C104J3G5TA)(type Legacy)(uri "C:/Users/andre/OneDrive/Documents/EEEN/Summer Research/Andre_PCBs/switch_board/0.1uF Cap/C320C104J3G5TA.mod")(options "")(descr ""))
+  (lib (name ADG608BNZ)(type Legacy)(uri ${KIPRJMOD}/ADG608BNZ/KiCad/ADG608BNZ.mod)(options "")(descr ""))
+  (lib (name MCP3221A6T-E_OTVAO)(type Legacy)(uri ${KIPRJMOD}/MCP3221A6T-E_OTVAO/KiCad/MCP3221A6T-E_OTVAO.mod)(options "")(descr ""))
+  (lib (name RPi)(type KiCad)(uri "C:/Users/andre/OneDrive/Documents/EEEN/Summer Research/Andre_PCBs/RPi")(options "")(descr ""))
+)

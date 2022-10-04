@@ -1,0 +1,25 @@
+Room,Appliance,E12 Resistor,Chassis?,Correct footprint?,,Rgister pin
+Lounge,TV,120,Yes,Yes,,1
+Kitchen,Toaster,68,Yes,Yes,,2
+Kitchen,Dishwasher,47,Yes,Yes,,3
+Kitchen,Jug,39,Yes,Yes,,4
+Bed1,Laptop charger 1,820,No,Yes,,5
+Lounge,Light,1000,No,Yes,,6
+Bathroom,Water heater,27,Yes,Yes,,7
+Lounge,Heater,33,Yes,Yes,,8
+Lounge,Stereo,560,No,Yes,,9
+Kitchen,Fridge,390,No,Yes,,10
+Kitchen,Oven,270,No,Yes,,11
+Kitchen,Light,1500,No,Yes,,12
+Lounge,Lamp,1000,No,Yes,,13
+Bathroom,Light,1000,No,Yes,,14
+Bed2,Laptop charger 2,1000,No,Yes,,15
+Bed2,Light,1200,No,Yes,,16
+Bed1,Clock1,10000,No,Yes,,17
+Bed1,Phone charger 1,8200,No,Yes,,18
+Bed1,Lamp,3300,No,Yes,,19
+Bed2,Lamp,2200,No,Yes,,20
+Bed,Clock2,12000,No,Yes,,21
+Bed2,Phone charger 2,12000,No,Yes,,22
+Lounge,Phone charger 3,18000,No,Yes,,23
+Bed1,Light,2200,No,Yes,,24

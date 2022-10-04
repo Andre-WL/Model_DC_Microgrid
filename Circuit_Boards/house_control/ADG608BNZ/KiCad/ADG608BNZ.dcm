@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADG608BNZ
+D ADG608BNZ, Multiplexer Single 8:1, 3 V, 5 V, 16-Pin, PDIP, 1
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69217.pdf
+$ENDCMP
+#
+#End Doc Library
